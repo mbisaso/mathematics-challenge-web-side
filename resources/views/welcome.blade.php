@@ -151,6 +151,7 @@
       <div class="order-2 col-lg-6 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
             <h1>Making Better Mathematics Pupils</h1>
             <p>We make your child a mathematical genius</p>
+
             <div class="d-flex">
               <a href="#about" class="btn-get-started">Get Started</a>
               <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center">
