@@ -72,15 +72,15 @@
                 </div>
 
                 <div class="card-body">
-                  <h5 class="card-title">Sales <span>| Today</span></h5>
+                  <h5 class="card-title">New Pupils <span>| Schools</span></h5>
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-cart"></i>
+                      <i class="bi bi-building"></i>
                     </div>
                     <div class="ps-3">
                       <h6>145</h6>
-                      <span class="pt-1 text-success small fw-bold">12%</span> <span class="pt-2 text-muted small ps-1">increase</span>
+                      <span class="pt-1 text-success small fw-bold">10%</span> <span class="pt-2 text-muted small ps-1">increase</span>
 
                     </div>
                   </div>
@@ -107,15 +107,15 @@
                 </div>
 
                 <div class="card-body">
-                  <h5 class="card-title">Revenue <span>| This Month</span></h5>
+                  <h5 class="card-title">Total Pupils<span>| This Year</span></h5>
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-currency-dollar"></i>
+                      <i class="bi bi-people"></i>
                     </div>
                     <div class="ps-3">
-                      <h6>$3,264</h6>
-                      <span class="pt-1 text-success small fw-bold">8%</span> <span class="pt-2 text-muted small ps-1">increase</span>
+                      <h6>400</h6>
+                      <span class="pt-1 text-success small fw-bold">12%</span> <span class="pt-2 text-muted small ps-1">increase</span>
 
                     </div>
                   </div>
@@ -143,15 +143,15 @@
                 </div>
 
                 <div class="card-body">
-                  <h5 class="card-title">Customers <span>| This Year</span></h5>
+                  <h5 class="card-title">Pupils <span>| This Year</span></h5>
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-people"></i>
+                      <i class="bi bi-person"></i>
                     </div>
                     <div class="ps-3">
-                      <h6>1244</h6>
-                      <span class="pt-1 text-danger small fw-bold">12%</span> <span class="pt-2 text-muted small ps-1">decrease</span>
+                      <h6>20</h6>
+                      <span class="pt-1 text-danger small fw-bold">3%</span> <span class="pt-2 text-muted small ps-1">decrease</span>
 
                     </div>
                   </div>
@@ -179,7 +179,7 @@
                 </div>
 
                 <div class="card-body">
-                  <h5 class="card-title">Reports <span>/Today</span></h5>
+                  <h5 class="card-title">Reports <span>/Perfomance</span></h5>
 
                   <!-- Line Chart -->
                   <div id="reportsChart"></div>
@@ -261,53 +261,53 @@
                 </div>
 
                 <div class="card-body">
-                  <h5 class="card-title">Recent Sales <span>| Today</span></h5>
+                  <h5 class="card-title"> <span>| Today</span></h5>
 
                   <table class="table table-borderless datatable">
                     <thead>
                       <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Customer</th>
-                        <th scope="col">Product</th>
-                        <th scope="col">Price</th>
+                        <th scope="col">School ID</th>
+                        <th scope="col">Pupil</th>
+                        <th scope="col">School</th>
+                        <th scope="col">Marks</th>
                         <th scope="col">Status</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <th scope="row"><a href="#">#2457</a></th>
-                        <td>Brandon Jacob</td>
-                        <td><a href="#" class="text-primary">At praesentium minu</a></td>
-                        <td>$64</td>
-                        <td><span class="badge bg-success">Approved</span></td>
+                        <th scope="row"><a href="#">U65432</a></th>
+                        <td>Aswimwe Jacob</td>
+                        <td><a href="#" class="text-primary">Ntare Primary School</a></td>
+                        <td>80%</td>
+                        <td><span class="badge bg-success">Passed</span></td>
                       </tr>
                       <tr>
-                        <th scope="row"><a href="#">#2147</a></th>
-                        <td>Bridie Kessler</td>
-                        <td><a href="#" class="text-primary">Blanditiis dolor omnis similique</a></td>
-                        <td>$47</td>
-                        <td><span class="badge bg-warning">Pending</span></td>
+                        <th scope="row"><a href="#">U4374</a></th>
+                        <td>Busuulu Ibrahim</td>
+                        <td><a href="#" class="text-primary">Bat Valley School</a></td>
+                        <td>50%</td>
+                        <td><span class="badge bg-warning">Average</span></td>
                       </tr>
                       <tr>
-                        <th scope="row"><a href="#">#2049</a></th>
-                        <td>Ashleigh Langosh</td>
-                        <td><a href="#" class="text-primary">At recusandae consectetur</a></td>
-                        <td>$147</td>
-                        <td><span class="badge bg-success">Approved</span></td>
+                        <th scope="row"><a href="#">U6634</a></th>
+                        <td>Joel Muheki</td>
+                        <td><a href="#" class="text-primary">St.Paul Primary School</a></td>
+                        <td>70%</td>
+                        <td><span class="badge bg-success">Passed</span></td>
                       </tr>
                       <tr>
-                        <th scope="row"><a href="#">#2644</a></th>
-                        <td>Angus Grady</td>
-                        <td><a href="#" class="text-primar">Ut voluptatem id earum et</a></td>
-                        <td>$67</td>
+                        <th scope="row"><a href="#">U1300</a></th>
+                        <td>Paul Mutuula</td>
+                        <td><a href="#" class="text-primar">Winston Primary School</a></td>
+                        <td>20%</td>
                         <td><span class="badge bg-danger">Rejected</span></td>
                       </tr>
                       <tr>
-                        <th scope="row"><a href="#">#2644</a></th>
-                        <td>Raheem Lehner</td>
-                        <td><a href="#" class="text-primary">Sunt similique distinctio</a></td>
-                        <td>$165</td>
-                        <td><span class="badge bg-success">Approved</span></td>
+                        <th scope="row"><a href="#">U1536</a></th>
+                        <td>Raymond Nydahurira</td>
+                        <td><a href="#" class="text-primary">Mukono Parents School</a></td>
+                        <td>90%</td>
+                        <td><span class="badge bg-success">Passed</span></td>
                       </tr>
                     </tbody>
                   </table>
@@ -335,53 +335,51 @@
                 </div>
 
                 <div class="pb-0 card-body">
-                  <h5 class="card-title">Top Selling <span>| Today</span></h5>
+                  <h5 class="card-title">Top Performing Schools <span>| Rankings</span></h5>
 
                   <table class="table table-borderless">
                     <thead>
                       <tr>
-                        <th scope="col">Preview</th>
-                        <th scope="col">Product</th>
-                        <th scope="col">Price</th>
-                        <th scope="col">Sold</th>
-                        <th scope="col">Revenue</th>
+                        <!-- <th scope="col">Postion</th> -->
+                        <th scope="col">School</th>
+                        <th scope="col">Passing Rate</th>
+                        <th scope="col">Students</th>
+                        <!-- <th scope="col">Revenue</th> -->
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <th scope="row"><a href="#"><img src="assets/img/product-1.jpg" alt=""></a></th>
-                        <td><a href="#" class="text-primary fw-bold">Ut inventore ipsa voluptas nulla</a></td>
-                        <td>$64</td>
+                        <!-- <th scope="row"><a href="#"><img src="" alt=""></a></th> -->
+                        <td><a href="#" class="text-primary fw-bold">1. Seroma Primary School</a></td>
+                        <td>80%</td>
                         <td class="fw-bold">124</td>
-                        <td>$5,828</td>
+                      
                       </tr>
                       <tr>
-                        <th scope="row"><a href="#"><img src="assets/img/product-2.jpg" alt=""></a></th>
-                        <td><a href="#" class="text-primary fw-bold">Exercitationem similique doloremque</a></td>
-                        <td>$46</td>
-                        <td class="fw-bold">98</td>
-                        <td>$4,508</td>
+                        <!-- <th scope="row"><a href="#"><img src="assets/img/product-2.jpg" alt=""></a></th> -->
+                        <td><a href="#" class="text-primary fw-bold">2. Ntare Primary School</a></td>
+                        <td>70%</td>
+                        <td class="fw-bold">40</td>
                       </tr>
                       <tr>
-                        <th scope="row"><a href="#"><img src="assets/img/product-3.jpg" alt=""></a></th>
-                        <td><a href="#" class="text-primary fw-bold">Doloribus nisi exercitationem</a></td>
-                        <td>$59</td>
-                        <td class="fw-bold">74</td>
-                        <td>$4,366</td>
+                        <!-- <th scope="row"><a href="#"><img src="assets/img/product-3.jpg" alt=""></a></th> -->
+                        <td><a href="#" class="text-primary fw-bold">3. Mukono Parents School</a></td>
+                        <td>80%</td>
+                        <td class="fw-bold">30</td>
                       </tr>
                       <tr>
-                        <th scope="row"><a href="#"><img src="assets/img/product-4.jpg" alt=""></a></th>
-                        <td><a href="#" class="text-primary fw-bold">Officiis quaerat sint rerum error</a></td>
-                        <td>$32</td>
-                        <td class="fw-bold">63</td>
-                        <td>$2,016</td>
+                        <!-- <th scope="row"><a href="#"><img src="assets/img/product-4.jpg" alt=""></a></th> -->
+                        <td><a href="#" class="text-primary fw-bold">4. Bat Valley School</a></td>
+                        <td>70%</td>
+                        <td class="fw-bold">40</td>
+                        
                       </tr>
                       <tr>
-                        <th scope="row"><a href="#"><img src="assets/img/product-5.jpg" alt=""></a></th>
-                        <td><a href="#" class="text-primary fw-bold">Sit unde debitis delectus repellendus</a></td>
-                        <td>$79</td>
+                        <!-- <th scope="row"><a href="#"><img src="assets/img/product-5.jpg" alt=""></a></th> -->
+                        <td><a href="#" class="text-primary fw-bold">5. Global Primary School</a></td>
+                        <td>75%</td>
                         <td class="fw-bold">41</td>
-                        <td>$3,239</td>
+                        
                       </tr>
                     </tbody>
                   </table>
@@ -486,7 +484,7 @@
             </div>
 
             <div class="pb-0 card-body">
-              <h5 class="card-title">Budget Report <span>| This Month</span></h5>
+              <h5 class="card-title">Challenges<span>| This Year</span></h5>
 
               <div id="budgetChart" style="min-height: 400px;" class="echart"></div>
 
@@ -560,7 +558,7 @@
             </div>
 
             <div class="pb-0 card-body">
-              <h5 class="card-title">Website Traffic <span>| Today</span></h5>
+              <h5 class="card-title">Most Attempted Challenges <span>| This Year</span></h5>
 
               <div id="trafficChart" style="min-height: 400px;" class="echart"></div>
 
@@ -595,23 +593,23 @@
                       },
                       data: [{
                           value: 1048,
-                          name: 'Search Engine'
+                          name: 'Addition'
                         },
                         {
                           value: 735,
-                          name: 'Direct'
+                          name: 'Subtraction'
                         },
                         {
                           value: 580,
-                          name: 'Email'
+                          name: 'Multiplication'
                         },
                         {
-                          value: 484,
-                          name: 'Union Ads'
+                          value: 400,
+                          name: 'Incomplete Challenges'
                         },
                         {
                           value: 300,
-                          name: 'Video Ads'
+                          name: 'Division'
                         }
                       ]
                     }]
@@ -638,38 +636,38 @@
             </div>
 
             <div class="pb-0 card-body">
-              <h5 class="card-title">News &amp; Updates <span>| Today</span></h5>
+              <h5 class="card-title">Announcements &amp; Updates <span>| </span></h5>
 
               <div class="news">
                 <div class="clearfix post-item">
                   <img src="assets/img/news-1.jpg" alt="">
-                  <h4><a href="#">Nihil blanditiis at in nihil autem</a></h4>
-                  <p>Sit recusandae non aspernatur laboriosam. Quia enim eligendi sed ut harum...</p>
+                  <h4><a href="#">Academic Awards</a></h4>
+                  <p>You are invited to the Uganda Academic Awards for transforming pupils grades</p>
                 </div>
 
                 <div class="clearfix post-item">
                   <img src="assets/img/news-2.jpg" alt="">
-                  <h4><a href="#">Quidem autem et impedit</a></h4>
-                  <p>Illo nemo neque maiores vitae officiis cum eum turos elan dries werona nande...</p>
+                  <h4><a href="#">Start Of Academic challenges 2024/2025</a></h4>
+                  <p>The Challenges will resume for on 3rd August 2024 for the next challenges</p>
                 </div>
 
                 <div class="clearfix post-item">
                   <img src="assets/img/news-3.jpg" alt="">
-                  <h4><a href="#">Id quia et et ut maxime similique occaecati ut</a></h4>
-                  <p>Fugiat voluptas vero eaque accusantium eos. Consequuntur sed ipsam et totam...</p>
+                  <h4><a href="#">Release Of Results 2023/2024</a></h4>
+                  <p>The Official release of the results for Pupils</p>
                 </div>
 
                 <div class="clearfix post-item">
                   <img src="assets/img/news-4.jpg" alt="">
-                  <h4><a href="#">Laborum corporis quo dara net para</a></h4>
-                  <p>Qui enim quia optio. Eligendi aut asperiores enim repellendusvel rerum cuder...</p>
+                  <h4><a href="#">Meeting with Representatives</a></h4>
+                  <p>Meeting with School Representatives with start on 1st August 2024</p>
                 </div>
 
-                <div class="clearfix post-item">
+                <!-- <div class="clearfix post-item">
                   <img src="assets/img/news-5.jpg" alt="">
                   <h4><a href="#">Et dolores corrupti quae illo quod dolor</a></h4>
                   <p>Odit ut eveniet modi reiciendis. Atque cupiditate libero beatae dignissimos eius...</p>
-                </div>
+                </div> -->
 
               </div><!-- End sidebar recent posts-->
 
