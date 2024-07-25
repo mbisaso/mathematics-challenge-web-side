@@ -5,14 +5,16 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class questions extends Model
+class Challenge extends Model
 {
     use HasFactory;
+    protected $table = 'challenges';
 
     protected $fillable = [
-        'questionid',
-        'questiontext',
-        'answer',
-        'marksallocated'
+        'challengeNo',
+        'openingDate',
+        'closingDate',
+        'duration',
+        
     ];
 }

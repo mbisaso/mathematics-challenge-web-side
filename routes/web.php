@@ -7,10 +7,11 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\QuestionsController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\LoginController;
-
-
 use App\Http\Controllers\ChartController;
+use App\Http\Controllers\GuestController;
 
+
+//These are the routes for the pages
 
 Route::get('/', function () {
     return view('welcome');
@@ -31,33 +32,44 @@ Route::get('/index', function () {
 
 Auth::routes();
 
+//Home Route && Dashboard Route
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('dashboard');
 
+//Chart Routes
 Route::get('/charts/pie', [App\Http\Controllers\ChartController::class, 'pieChart'])->name('charts.pie');
 
+// Upload Questions Routes
 Route::get('questions/upload', [QuestionsController::class, 'upload'])->name('questions.upload');
 Route::post('questions/import', [QuestionsController::class, 'import'])->name('questions.import');
 
 
+//Quest Route
+Route::get('/guest', [GuestController::class, 'showGuestPage'])->name('guest');
 
 
 
+
+
+//Login && Register Routes
 Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
 Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->name('register');
 
 
 
-
+//Auth Routes
 Route::get('auth', [App\Http\Controllers\AuthController::class, 'edit'])->name('auth.register');
 
 Route::middleware('auth')->group(function () {
+
+    // Profile && User Routes
     Route::resource('user', App\Http\Controllers\UserController::class)->except(['show']);
     Route::get('profile', [App\Http\Controllers\ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('profile', [App\Http\Controllers\ProfileController::class, 'update'])->name('profile.update');
     Route::patch('profile/password', [App\Http\Controllers\ProfileController::class, 'password'])->name('profile.password');
 
     // Route::get('{page}', [App\Http\Controllers\PageController::class, 'index'])->name('page.index');
+    //Upload Schools
     Route::put('/schools/{id}', [SchoolController::class, 'update'])->name('schools.update');
     Route::get('/schools', [SchoolController::class, 'index'])->name('schools.index');
     Route::get('schools/create', [SchoolController::class, 'create'])->name('schools.create');
@@ -67,9 +79,12 @@ Route::middleware('auth')->group(function () {
     Route::patch('schools/{school}', [SchoolController::class, 'update'])->name('schools.update');
     Route::delete('schools/{school}', [SchoolController::class, 'destroy'])->name('schools.destroy');
 
+    //Upload Representatives
+    //Route::post('/upload', [RepresentativeController::class, 'uploadRepresentative'])->name('upload.representative');
 
 
-
+    //Upload Schools
+    //Route::post('/schools', [SchoolUploadController::class, 'store'])->name('upload.school');
    
 
 
